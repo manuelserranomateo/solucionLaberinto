@@ -8,7 +8,15 @@ from Puerta import Puerta
 class Juego:
     def __init__(self):
         self.laberinto = None
+        
+    def fabricarLaberinto(self):
+        return Laberinto()
 
+    def laberinto2HabitacionesFM(self):
+        # todo
+        self.laberinto = self.fabricarLaberinto()
+        pass
+    
     def laberinto2Habitaciones(self):
         self.laberinto = Laberinto()
         
